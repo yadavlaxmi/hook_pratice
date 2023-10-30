@@ -4,7 +4,7 @@ import Superchild from "./Superchild";
 
 const Child = () => {
   const { appColor } = useContext(GlobalInfo);
-//   console.warn("appColor", appColor);
+  console.warn("appColor", appColor);
 
   return (
     <>

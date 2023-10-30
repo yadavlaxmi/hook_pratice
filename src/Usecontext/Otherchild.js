@@ -3,7 +3,7 @@ import { GlobalInfo } from "./Usecontext";
 
 const Otherchild = () => {
   const { appColor } = useContext(GlobalInfo);
-  const day="sunday"
+  const day="Sunday"
 //   console.warn("appColor", appColor);
 
   return (

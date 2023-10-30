@@ -8,12 +8,13 @@ const Usecontext = () => {
   const [color, setColor] = useState("green");
 const[day,setDay]=useState("Monday")
   const getDay=(item)=>{
-        // console.warn(item)
+        console.warn(item)
         setDay(item)
 
     }
   return (
     <GlobalInfo.Provider value={{ appColor: color,getDay: getDay }}>
+
       <div>
         <h1>use context</h1>
         <Child />
