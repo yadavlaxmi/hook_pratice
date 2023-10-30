@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Usememo from './Usememo/Usememo';
+import Usermemo from './Usememo/Usememo';
 
 function App() {
   return (
     <div className="App">
-        <Usememo/>
+        <Usermemo/>
     </div>
   );
 }
