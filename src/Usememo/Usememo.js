@@ -1,4 +1,4 @@
-import React, { useState,Usememo, useMemo} from "react";
+import React, { useState,useMemo} from "react";
 const Usermemo=()=>{
     const[count,setCount]=useState(0)
     const[item,setItem]=useState(10)
