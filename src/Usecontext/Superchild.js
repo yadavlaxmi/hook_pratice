@@ -3,7 +3,7 @@ import { GlobalInfo } from "./Usecontext";
 
 const Superchild = () => {
   const { appColor,getDay } = useContext(GlobalInfo);
-const day="sunday"
+const day="Sunday"
   return (
     <>
       <div>

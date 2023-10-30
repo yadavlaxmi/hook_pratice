@@ -6,8 +6,11 @@ export const GlobalInfo = createContext();
 
 const Usecontext = () => {
   const [color, setColor] = useState("green");
-    const getDay=(item)=>{
-        console.warn(item)
+const[day,setDay]=useState("Monday")
+  const getDay=(item)=>{
+        // console.warn(item)
+        setDay(item)
+
     }
   return (
     <GlobalInfo.Provider value={{ appColor: color,getDay: getDay }}>
