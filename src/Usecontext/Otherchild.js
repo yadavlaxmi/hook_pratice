@@ -1,22 +1,21 @@
 import React, { useContext } from "react";
 import { GlobalInfo } from "./Usecontext";
-import Superchild from "./Superchild";
 
-const Child = () => {
+const Otherchild = () => {
   const { appColor } = useContext(GlobalInfo);
+  const day="sunday"
 //   console.warn("appColor", appColor);
 
   return (
     <>
       <div>
-        <h1 style={{backgroundColor:appColor}}>use context child</h1>
+        <h1 >use context child</h1>
         <div style={{ color: appColor }}>
-          <h1> child context</h1>
-          <Superchild/>
+          <h1> Otherchild context</h1>
         </div>
       </div>
     </>
   );
 };
 
-export default Child;
+export default Otherchild;
